@@ -1,7 +1,7 @@
-// Package go_rtsp_to_mp4
+// Package videomgr
 // Created by RTT.
 // Author: teocci@yandex.com on 2021-Nov-12
-package main
+package videomgr
 
 import "log"
 
