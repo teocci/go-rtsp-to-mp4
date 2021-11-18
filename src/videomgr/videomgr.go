@@ -6,7 +6,7 @@ package videomgr
 import (
 	"bytes"
 	"fmt"
-	"github.com/teocci/go-rtsp-to-mp4/src/datamgr"
+	"github.com/teocci/go-samples-rtsp-mp4/src/datamgr"
 	"log"
 	"os"
 	"os/exec"

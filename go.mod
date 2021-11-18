@@ -1,3 +1,3 @@
-module github.com/teocci/go-rtsp-to-mp4
+module github.com/teocci/go-samples-rtsp-mp4
 
 go 1.17

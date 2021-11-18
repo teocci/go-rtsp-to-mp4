@@ -4,10 +4,11 @@
 package main
 
 import (
-	"github.com/teocci/go-rtsp-to-mp4/src/datamgr"
-	"github.com/teocci/go-rtsp-to-mp4/src/videomgr"
 	"log"
 	"os"
+
+	"github.com/teocci/go-samples-rtsp-mp4/src/datamgr"
+	"github.com/teocci/go-samples-rtsp-mp4/src/videomgr"
 )
 
 func main() {
