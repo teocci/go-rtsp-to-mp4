@@ -49,7 +49,7 @@ func New(c datamgr.InitConf) (videoExec *VideoExec) {
 	err := os.MkdirAll(filepath.Dir(videoPath), os.ModePerm)
 	hasError(err, true)
 
-	signals := make(chan os.Signal)
+	signals := make(chan os.Signal, 1)
 	signal.Notify(signals, os.Interrupt, syscall.SIGTERM, syscall.SIGKILL)
 
 	// use "-strftime", "1", to use "strftime names" like out%Y-%m-%d_%H-%M-%S.mp4
